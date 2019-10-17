@@ -11,6 +11,9 @@ public class PlayerCollision : MonoBehaviour
     public int actualScore;
     public bool BeenHit;
 
+    public float thrust = 10000;
+    //public Rigidbody rb;
+
 
 
     private void Start()
@@ -19,20 +22,28 @@ public class PlayerCollision : MonoBehaviour
     
     }
 
-    // This function runs when we hit another object.
-    // We get information about the collision and call it "collisionInfo".
-    void OnTriggerEnter(Collider Collider)
+
+
+    private void OnTriggerEnter(Collider other)
     {
-        // We check if the object we collide with has a tag called "obstacle".
-        if (Collider.tag == "Obstacle")
+        if(other.gameObject.tag == "Obstacle")
         {
-            //scoreText.text = score + ("1");
+            scoreText.text = score + ("1");
             BeenHit = true;
             actualScore = score + 1;
-            Debug.Log("true");
+            Rigidbody rBody = other.gameObject.GetComponent<Rigidbody>();
+            if(rBody)
+            {
+                rBody.AddForce(Vector3.up * 1000f);
+                foreach(Collider col in other.gameObject.GetComponents<Collider>())
+                {
+                    col.enabled = false;
+                }
+            }
         }
-       
     }
+
+  
 
     private void OnTriggerExit(Collider collider)
     {

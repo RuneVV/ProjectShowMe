@@ -4,15 +4,16 @@ using UnityEngine;
 
 public class YeetScript : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+    public float thrust = 100;
+    public Rigidbody rb;
 
-    // Update is called once per frame
-    void Update()
+    void OnCollissionEnter(Collider Collider)
     {
-        
+       
+        if (Collider.tag == "Player")
+        {
+            Debug.Log("hasbeenhit");
+            rb.AddForce(transform.forward * thrust);
+        }
     }
 }

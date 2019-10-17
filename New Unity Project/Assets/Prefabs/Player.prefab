@@ -146,3 +146,5 @@ MonoBehaviour:
   score: 0
   actualScore: 0
   BeenHit: 0
+  thrust: 100
+  rb: {fileID: 8365778505325990827, guid: 1829616a7d9c76e448712052275f89b9, type: 3}
