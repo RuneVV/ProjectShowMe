@@ -17,7 +17,7 @@ GameObject:
   - component: {fileID: 5133813168875102223}
   m_Layer: 0
   m_Name: Player
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -125,6 +125,10 @@ MonoBehaviour:
   rb: {fileID: 5133813168875102210}
   forwardForce: 4000
   sidewaysForce: 100
+  increaseSpeed: 200
+  maxSpeed: 4000
+  currentspeed: 0
+  go: 0
 --- !u!114 &5133813168875102223
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -138,3 +142,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   movement: {fileID: 5133813168875102222}
+  scoreText: {fileID: 0}
+  score: 0
+  actualScore: 0
+  BeenHit: 0
