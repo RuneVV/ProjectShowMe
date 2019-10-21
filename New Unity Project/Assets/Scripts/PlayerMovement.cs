@@ -9,7 +9,7 @@ public class PlayerMovement : MonoBehaviour
     public float forwardForce = 500f;
     public float sidewaysForce = 100f;
     public float increaseSpeed = 100f;
-    public float maxSpeed = 4000f;
+    public float maxSpeed = 5000f;
     public float currentspeed;
 
     public bool go;

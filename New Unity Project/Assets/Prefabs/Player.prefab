@@ -13,8 +13,10 @@ GameObject:
   - component: {fileID: 5133813168875102220}
   - component: {fileID: 5133813168875102211}
   - component: {fileID: 5133813168875102210}
+  - component: {fileID: 8551659934061148061}
   - component: {fileID: 5133813168875102222}
   - component: {fileID: 5133813168875102223}
+  - component: {fileID: 141381320545340765}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -29,7 +31,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5133813168875102208}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: -0.1, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
@@ -108,8 +110,23 @@ Rigidbody:
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
-  m_Constraints: 0
+  m_Constraints: 112
   m_CollisionDetection: 1
+--- !u!114 &8551659934061148061
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5133813168875102208}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a0435ff2b48868c49b54e20ed85d8d39, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  movement: {fileID: 5133813168875102222}
+  parent: {fileID: 0}
+  animator: {fileID: 141381320545340765}
 --- !u!114 &5133813168875102222
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -125,8 +142,8 @@ MonoBehaviour:
   rb: {fileID: 5133813168875102210}
   forwardForce: 4000
   sidewaysForce: 100
-  increaseSpeed: 200
-  maxSpeed: 4000
+  increaseSpeed: 100
+  maxSpeed: 5000
   currentspeed: 0
   go: 0
 --- !u!114 &5133813168875102223
@@ -147,4 +164,22 @@ MonoBehaviour:
   actualScore: 0
   BeenHit: 0
   thrust: 100
-  rb: {fileID: 8365778505325990827, guid: 1829616a7d9c76e448712052275f89b9, type: 3}
+--- !u!95 &141381320545340765
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5133813168875102208}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: dbc3944fc575f364ab0269952a304a8a, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0

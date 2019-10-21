@@ -3,7 +3,8 @@ using UnityEngine.UI;
 
 public class PlayerCollision : MonoBehaviour
 {
-    public PlayerMovement movement; //This is a reference top our PlayerMovement script
+    public PlayerMovement movement;
+    
     public Text scoreText;
 
     public int score;
@@ -12,13 +13,14 @@ public class PlayerCollision : MonoBehaviour
     public bool BeenHit;
 
     public float thrust = 10000;
-    //public Rigidbody rb;
+    
 
 
 
     private void Start()
     {
         score = 0;
+       // particles = GetComponent<ParticleSystem>();
     
     }
 
@@ -29,12 +31,13 @@ public class PlayerCollision : MonoBehaviour
         if(other.gameObject.tag == "Obstacle")
         {
             scoreText.text = score + ("1");
+            //particles.Play();
             BeenHit = true;
             actualScore = score + 1;
             Rigidbody rBody = other.gameObject.GetComponent<Rigidbody>();
             if(rBody)
             {
-                rBody.AddForce(Vector3.up * 1000f);
+                rBody.AddForce(Vector3.forward + Vector3.up * 3000f);
                 foreach(Collider col in other.gameObject.GetComponents<Collider>())
                 {
                     col.enabled = false;
@@ -64,6 +67,7 @@ public class PlayerCollision : MonoBehaviour
        // }
     }
 
+   
 
 }
 
