@@ -11,6 +11,20 @@ public class PowerupsManager : MonoBehaviour
     public Text seedText;
     public int maxSeeds = 5;
 
+    public int TimeLeft = 60;
+
+    public float multiplier = 1.0f;
+
+    public GameObject player;
+
+    public float x = 0.7f;
+    public float y = 0.7f;
+    public float z = 0.7f;
+
+    public bool countingDown = false;
+
+    
+
     private void Awake()
     {
         Instance = this;
@@ -20,7 +34,7 @@ public class PowerupsManager : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
+        Time.timeScale = 1;
     }
 
     // Update is called once per frame
@@ -28,9 +42,20 @@ public class PowerupsManager : MonoBehaviour
     {
        if ( SeedCount == maxSeeds)
         {
-            //counter naar 0
-            //power up telt af 10 - 0 , grote weer naar normaal.
+            Debug.Log("yeet");
+
             
+            countingDown = true;
+            StartCoroutine(CountDown());
+              
+            SeedCount = 0;
+            seedText.text = SeedCount.ToString();
+            
+
+        }
+        else
+        {
+            Debug.Log("nietgelijk");
         }
     }
 
@@ -38,5 +63,32 @@ public class PowerupsManager : MonoBehaviour
     {
         SeedCount += _amount;
         seedText.text = SeedCount.ToString();
+    }
+
+    IEnumerator CountDown()
+    {
+        while (true)
+        {
+            
+            yield return new WaitForSeconds(1);
+            TimeLeft--;
+            Shrink();
+            
+
+        }
+    }
+
+    public void Shrink()
+    {
+        if (countingDown == true){
+            Debug.Log("were shrinking");
+            player.transform.localScale = new Vector3(x, y, z);
+            countingDown = false;
+
+        }
+        else {
+            Debug.Log("were not shrinking");
+        }
+        
     }
 }

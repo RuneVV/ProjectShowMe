@@ -14,6 +14,8 @@ public class Powerup : MonoBehaviour {
 
     public Text seedText;
 
+    
+
     private void Start()
     {
         
