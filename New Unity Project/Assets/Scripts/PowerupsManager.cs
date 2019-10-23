@@ -7,6 +7,8 @@ public class PowerupsManager : MonoBehaviour
 {
     public static PowerupsManager Instance;
 
+
+
     public int SeedCount;
     public Text seedText;
     public int maxSeeds = 5;
@@ -48,8 +50,8 @@ public class PowerupsManager : MonoBehaviour
             countingDown = true;
             StartCoroutine(CountDown());
               
-            SeedCount = 0;
-            seedText.text = SeedCount.ToString();
+            
+            
             
 
         }
@@ -70,7 +72,7 @@ public class PowerupsManager : MonoBehaviour
         while (true)
         {
             
-            yield return new WaitForSeconds(1);
+            yield return new WaitForSeconds(6);
             TimeLeft--;
             Shrink();
             
@@ -83,6 +85,8 @@ public class PowerupsManager : MonoBehaviour
         if (countingDown == true){
             Debug.Log("were shrinking");
             player.transform.localScale = new Vector3(x, y, z);
+            SeedCount = 0;
+            seedText.text = SeedCount.ToString();
             countingDown = false;
 
         }

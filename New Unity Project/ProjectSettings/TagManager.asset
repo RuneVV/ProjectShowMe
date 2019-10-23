@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Obstacle
   - Lose1
+  - ObstacleBig
   layers:
   - Default
   - TransparentFX
