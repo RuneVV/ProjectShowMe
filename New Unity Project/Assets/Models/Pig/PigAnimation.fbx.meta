@@ -1,0 +1,230 @@
+fileFormatVersion: 2
+guid: 056b2d9338dd9dd4e9d5e80f7ac07fcd
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: joint1
+    100002: joint10
+    100004: joint11
+    100006: joint12
+    100008: joint13
+    100010: joint14
+    100012: joint15
+    100014: joint16
+    100016: joint17
+    100018: joint18
+    100020: joint19
+    100022: joint2
+    100024: joint20
+    100026: joint3
+    100028: joint4
+    100030: joint5
+    100032: joint6
+    100034: joint7
+    100036: joint8
+    100038: joint9
+    100040: pCube7
+    100042: pCube7 1
+    100044: pCube7 2
+    100046: pCube7 3
+    100048: pCube8
+    100050: pCube8 1
+    100052: pCube8 2
+    100054: pCube8 3
+    100056: Pig
+    100058: Pig_ass
+    100060: Pig_body
+    100062: Pig_ear_L
+    100064: Pig_ear_R
+    100066: Pig_head
+    100068: Pig_leg_back_L
+    100070: Pig_leg_back_R
+    100072: Pig_leg_front_L
+    100074: Pig_leg_front_R
+    100076: Pig_tail
+    100078: //RootNode
+    400000: joint1
+    400002: joint10
+    400004: joint11
+    400006: joint12
+    400008: joint13
+    400010: joint14
+    400012: joint15
+    400014: joint16
+    400016: joint17
+    400018: joint18
+    400020: joint19
+    400022: joint2
+    400024: joint20
+    400026: joint3
+    400028: joint4
+    400030: joint5
+    400032: joint6
+    400034: joint7
+    400036: joint8
+    400038: joint9
+    400040: pCube7
+    400042: pCube7 1
+    400044: pCube7 2
+    400046: pCube7 3
+    400048: pCube8
+    400050: pCube8 1
+    400052: pCube8 2
+    400054: pCube8 3
+    400056: Pig
+    400058: Pig_ass
+    400060: Pig_body
+    400062: Pig_ear_L
+    400064: Pig_ear_R
+    400066: Pig_head
+    400068: Pig_leg_back_L
+    400070: Pig_leg_back_R
+    400072: Pig_leg_front_L
+    400074: Pig_leg_front_R
+    400076: Pig_tail
+    400078: //RootNode
+    2100000: lambert2
+    4300000: pCube7
+    4300002: pCube8
+    4300004: pCube7
+    4300006: pCube8
+    4300008: pCube7
+    4300010: pCube8
+    4300012: pCube7
+    4300014: pCube8
+    4300016: Pig_body
+    4300018: Pig_head
+    4300020: Pig_ear_R
+    4300022: Pig_ear_L
+    4300024: Pig_ass
+    4300026: Pig_tail
+    7400000: Take 001
+    9500000: //RootNode
+    13700000: pCube7
+    13700002: pCube7 1
+    13700004: pCube7 2
+    13700006: pCube7 3
+    13700008: pCube8
+    13700010: pCube8 1
+    13700012: pCube8 2
+    13700014: pCube8 3
+    13700016: Pig_ass
+    13700018: Pig_body
+    13700020: Pig_ear_L
+    13700022: Pig_ear_R
+    13700024: Pig_head
+    13700026: Pig_tail
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Take 001
+      takeName: Take 001
+      firstFrame: 1
+      lastFrame: 120
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 0.01
+    hasPreviousCalculatedGlobalScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

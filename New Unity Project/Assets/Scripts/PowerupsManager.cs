@@ -42,7 +42,7 @@ public class PowerupsManager : MonoBehaviour
     {
        if ( SeedCount == maxSeeds)
         {
-            Debug.Log("yeet");
+            
 
             
             countingDown = true;
@@ -55,7 +55,7 @@ public class PowerupsManager : MonoBehaviour
         }
         else
         {
-            Debug.Log("nietgelijk");
+            
         }
     }
 
@@ -87,7 +87,7 @@ public class PowerupsManager : MonoBehaviour
 
         }
         else {
-            Debug.Log("were not shrinking");
+            
         }
         
     }
