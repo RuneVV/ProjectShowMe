@@ -92,7 +92,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   multiplier: 1.2
-  pickupEffect: {fileID: 121806, guid: 4dbaeaca9d7e967419f27723f2718287, type: 3}
+  seedcount: 0
+  currentSeed: 0
+  maxSeed: 5
+  pickupEffect: {fileID: 139308, guid: 1c417f6a98778594d92a7a8883ede96e, type: 3}
+  seedText: {fileID: 0}
 --- !u!135 &783976096940642458
 SphereCollider:
   m_ObjectHideFlags: 0

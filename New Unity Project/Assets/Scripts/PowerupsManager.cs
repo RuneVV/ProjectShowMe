@@ -74,6 +74,7 @@ public class PowerupsManager : MonoBehaviour
             
             yield return new WaitForSeconds(6);
             TimeLeft--;
+
             Shrink();
             
 

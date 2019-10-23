@@ -58,7 +58,7 @@ public class PlayerCollision : MonoBehaviour
             Destroy(other.gameObject, 2);
         }
 
-        if (other.gameObject.tag == "ObstacleBig" && seeds == 5)
+        if (other.gameObject.tag == "ObstacleBig" && seeds >= 5)
         {
             Debug.Log("Udedsucker2");
             scoreText.text = score + ("10");

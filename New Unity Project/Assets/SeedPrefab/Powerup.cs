@@ -10,7 +10,7 @@ public class Powerup : MonoBehaviour {
     public int currentSeed;
     public int maxSeed = 5;
 
-    private GameObject pickupEffect;
+    public GameObject pickupEffect;
 
     public Text seedText;
 
@@ -28,7 +28,7 @@ public class Powerup : MonoBehaviour {
 
     void OnTriggerEnter (Collider other)
     {
-        if (other.CompareTag("Player"))
+        if (other.CompareTag("Player") && seedcount < 5)
         {
             Pickup(other);
             
@@ -37,13 +37,23 @@ public class Powerup : MonoBehaviour {
     void Pickup(Collider player)
     {
 
-        //Instantiate(pickupEffect, transform.position, transform.rotation);
-        
+        Instantiate(pickupEffect, transform.position, transform.rotation);
 
+        UpdateSeed(seedcount);
+        Debug.Log(seedcount);
+        
         PowerupsManager.Instance.UpdateSeedCount(1);
 
         player.transform.localScale *= multiplier;
                 
         Destroy(gameObject);
     }
+
+    public void UpdateSeed(int _amount)
+    {
+        seedcount += 1;
+        
+    }
 }
+
+
