@@ -21,6 +21,7 @@ public class PlayerCollision : MonoBehaviour
     public int timeLeft = 60;
 
     public int seeds;
+    public GameObject deathEffect;
 
     PowerupsManager mgr;
 
@@ -62,7 +63,7 @@ public class PlayerCollision : MonoBehaviour
         {
             Debug.Log("Udedsucker2");
             scoreText.text = score + ("10");
-            //particles.Play();
+            
             BeenHit = true;
             actualScore = score + 10;
             Rigidbody rBody = other.gameObject.GetComponent<Rigidbody>();
@@ -82,9 +83,12 @@ public class PlayerCollision : MonoBehaviour
         if(other.gameObject.tag == "ObstacleBig" && seeds < 5)
         {
             Debug.Log("Udedsucker");
+            
+            movement.forwardForce = 0;
+            movement.sidewaysForce = 0;
             movement.enabled = false;
-
             deathAnimator.SetTrigger("HasFallen");
+            Instantiate(deathEffect, transform.position, transform.rotation);
             FindObjectOfType<GameManager>().EndGame();
         }
 

@@ -7,6 +7,7 @@ public class LoseCondition : MonoBehaviour
     public PlayerMovement movement;
     public GameObject parent;
     Animator parentAnimator;
+    public GameObject deathEffect1;
 
     [SerializeField] private Animator animator;
     private void Awake()
@@ -18,9 +19,14 @@ public class LoseCondition : MonoBehaviour
     {
         if (other.gameObject.tag == "Lose1")
         {
-            movement.enabled = false;
+
+           
+            movement.forwardForce = 0;
+            movement.sidewaysForce = 0;
+             movement.enabled = false;
 
             animator.SetTrigger("HasFallen");
+            Instantiate(deathEffect1, transform.position, transform.rotation);
 
             FindObjectOfType<GameManager>().EndGame();
             

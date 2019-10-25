@@ -1,0 +1,204 @@
+fileFormatVersion: 2
+guid: 57d6111aea7ecd349a50059cc46c1dd7
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: apple1
+    100002: apple10
+    100004: apple11
+    100006: apple12
+    100008: apple13
+    100010: apple14
+    100012: apple15
+    100014: apple16
+    100016: apple17
+    100018: apple18
+    100020: apple2
+    100022: apple3
+    100024: apple4
+    100026: apple5
+    100028: apple6
+    100030: apple7
+    100032: apple8
+    100034: apple9
+    100036: //RootNode
+    100038: bladeren1
+    100040: bladeren2
+    100042: bladeren3
+    100044: stam
+    400000: apple1
+    400002: apple10
+    400004: apple11
+    400006: apple12
+    400008: apple13
+    400010: apple14
+    400012: apple15
+    400014: apple16
+    400016: apple17
+    400018: apple18
+    400020: apple2
+    400022: apple3
+    400024: apple4
+    400026: apple5
+    400028: apple6
+    400030: apple7
+    400032: apple8
+    400034: apple9
+    400036: //RootNode
+    400038: bladeren1
+    400040: bladeren2
+    400042: bladeren3
+    400044: stam
+    2100000: lambert1
+    2300000: apple1
+    2300002: apple10
+    2300004: apple11
+    2300006: apple12
+    2300008: apple13
+    2300010: apple14
+    2300012: apple15
+    2300014: apple16
+    2300016: apple17
+    2300018: apple18
+    2300020: apple2
+    2300022: apple3
+    2300024: apple4
+    2300026: apple5
+    2300028: apple6
+    2300030: apple7
+    2300032: apple8
+    2300034: apple9
+    2300036: bladeren1
+    2300038: bladeren2
+    2300040: bladeren3
+    2300042: stam
+    3300000: apple1
+    3300002: apple10
+    3300004: apple11
+    3300006: apple12
+    3300008: apple13
+    3300010: apple14
+    3300012: apple15
+    3300014: apple16
+    3300016: apple17
+    3300018: apple18
+    3300020: apple2
+    3300022: apple3
+    3300024: apple4
+    3300026: apple5
+    3300028: apple6
+    3300030: apple7
+    3300032: apple8
+    3300034: apple9
+    3300036: bladeren1
+    3300038: bladeren2
+    3300040: bladeren3
+    3300042: stam
+    4300000: apple18
+    4300002: apple17
+    4300004: apple16
+    4300006: apple15
+    4300008: apple14
+    4300010: apple13
+    4300012: apple12
+    4300014: apple11
+    4300016: apple10
+    4300018: apple9
+    4300020: apple8
+    4300022: apple7
+    4300024: apple6
+    4300026: apple5
+    4300028: apple4
+    4300030: apple3
+    4300032: apple2
+    4300034: apple1
+    4300036: bladeren3
+    4300038: bladeren2
+    4300040: bladeren1
+    4300042: stam
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

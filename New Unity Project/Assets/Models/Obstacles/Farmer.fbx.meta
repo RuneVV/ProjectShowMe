@@ -1,0 +1,186 @@
+fileFormatVersion: 2
+guid: ffbd0761b18250845a7be5c1390730bf
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: Farmer_arm_L
+    100004: Farmer_arm_R
+    100006: Farmer_belt
+    100008: Farmer_body
+    100010: Farmer_ear_L
+    100012: Farmer_ear_R
+    100014: Farmer_hand_L
+    100016: Farmer_hand_R
+    100018: Farmer_hat
+    100020: Farmer_head
+    100022: Farmer_leg_L
+    100024: Farmer_leg_R
+    100026: Farmer_moustache
+    100028: Farmer_nose
+    100030: Farmer_pelvis
+    100032: Farmer_Scarf
+    100034: pCube37
+    100036: pCube38
+    100038: pCube39
+    400000: //RootNode
+    400002: Farmer_arm_L
+    400004: Farmer_arm_R
+    400006: Farmer_belt
+    400008: Farmer_body
+    400010: Farmer_ear_L
+    400012: Farmer_ear_R
+    400014: Farmer_hand_L
+    400016: Farmer_hand_R
+    400018: Farmer_hat
+    400020: Farmer_head
+    400022: Farmer_leg_L
+    400024: Farmer_leg_R
+    400026: Farmer_moustache
+    400028: Farmer_nose
+    400030: Farmer_pelvis
+    400032: Farmer_Scarf
+    400034: pCube37
+    400036: pCube38
+    400038: pCube39
+    2100000: lambert1
+    2300000: Farmer_arm_L
+    2300002: Farmer_arm_R
+    2300004: Farmer_belt
+    2300006: Farmer_body
+    2300008: Farmer_ear_L
+    2300010: Farmer_ear_R
+    2300012: Farmer_hand_L
+    2300014: Farmer_hand_R
+    2300016: Farmer_hat
+    2300018: Farmer_head
+    2300020: Farmer_leg_L
+    2300022: Farmer_leg_R
+    2300024: Farmer_moustache
+    2300026: Farmer_nose
+    2300028: Farmer_pelvis
+    2300030: pCube37
+    2300032: pCube38
+    2300034: pCube39
+    3300000: Farmer_arm_L
+    3300002: Farmer_arm_R
+    3300004: Farmer_belt
+    3300006: Farmer_body
+    3300008: Farmer_ear_L
+    3300010: Farmer_ear_R
+    3300012: Farmer_hand_L
+    3300014: Farmer_hand_R
+    3300016: Farmer_hat
+    3300018: Farmer_head
+    3300020: Farmer_leg_L
+    3300022: Farmer_leg_R
+    3300024: Farmer_moustache
+    3300026: Farmer_nose
+    3300028: Farmer_pelvis
+    3300030: pCube37
+    3300032: pCube38
+    3300034: pCube39
+    4300000: Farmer_hat
+    4300002: Farmer_head
+    4300004: Farmer_ear_R
+    4300006: Farmer_ear_L
+    4300008: Farmer_nose
+    4300010: Farmer_moustache
+    4300012: Farmer_body
+    4300014: pCube37
+    4300016: pCube39
+    4300018: pCube38
+    4300020: Farmer_arm_R
+    4300022: Farmer_hand_R
+    4300024: Farmer_arm_L
+    4300026: Farmer_hand_L
+    4300028: Farmer_leg_R
+    4300030: Farmer_leg_L
+    4300032: Farmer_pelvis
+    4300034: Farmer_belt
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

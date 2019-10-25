@@ -11,7 +11,7 @@ public class GameManager : MonoBehaviour
 
     public void CompleteLevel()
     {
-        SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+        completeLevelUI.SetActive(true);
     }
 
     public void EndGame()
