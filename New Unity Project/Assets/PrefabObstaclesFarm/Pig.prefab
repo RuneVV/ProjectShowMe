@@ -1396,13 +1396,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1354096121414090476}
-  m_LocalRotation: {x: -0, y: -0, z: 0.14492211, w: 0.98944306}
+  m_LocalRotation: {x: -0, y: -0, z: -0.16633753, w: 0.9860689}
   m_LocalPosition: {x: -0.01084, y: 0.00542, z: 0.00013007487}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1354096121413722812}
   m_RootOrder: 7
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 16.666}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: -19.150002}
 --- !u!33 &1354096121415017106
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -1495,6 +1495,7 @@ GameObject:
   - component: {fileID: 2762759998459801378}
   - component: {fileID: 2952108336673430869}
   - component: {fileID: 8781196463330149694}
+  - component: {fileID: 8842005800684152975}
   m_Layer: 0
   m_Name: Pig
   m_TagString: Obstacle
@@ -1702,6 +1703,25 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!95 &8842005800684152975
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8650870386828467303}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 591cae58b9e68ad4b88c53cf9646e58d, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1001 &5197627518792931658
 PrefabInstance:
   m_ObjectHideFlags: 0

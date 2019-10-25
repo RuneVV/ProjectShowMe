@@ -1,0 +1,154 @@
+fileFormatVersion: 2
+guid: da776d322070bfd47afc81e8c448f08d
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: Henhouse_base_02
+    100004: Henhouse_hay_02
+    100006: Henhouse_wood_01
+    100008: Henhouse_wood_02
+    100010: Henhouse_wood_03
+    100012: Henhouse_wood_04
+    100014: Henhouse_wood_06
+    100016: Henhouse_wood_07
+    100018: Henhouse_wood_08
+    100020: Henhouse_wood_09
+    100022: Henhouse_wood_10
+    100024: Henhouse_wood_11
+    400000: //RootNode
+    400002: Henhouse_base_02
+    400004: Henhouse_hay_02
+    400006: Henhouse_wood_01
+    400008: Henhouse_wood_02
+    400010: Henhouse_wood_03
+    400012: Henhouse_wood_04
+    400014: Henhouse_wood_06
+    400016: Henhouse_wood_07
+    400018: Henhouse_wood_08
+    400020: Henhouse_wood_09
+    400022: Henhouse_wood_10
+    400024: Henhouse_wood_11
+    2100000: lambert1
+    2300000: Henhouse_base_02
+    2300002: Henhouse_hay_02
+    2300004: Henhouse_wood_01
+    2300006: Henhouse_wood_02
+    2300008: Henhouse_wood_03
+    2300010: Henhouse_wood_04
+    2300012: Henhouse_wood_06
+    2300014: Henhouse_wood_07
+    2300016: Henhouse_wood_08
+    2300018: Henhouse_wood_09
+    2300020: Henhouse_wood_10
+    2300022: Henhouse_wood_11
+    3300000: Henhouse_base_02
+    3300002: Henhouse_hay_02
+    3300004: Henhouse_wood_01
+    3300006: Henhouse_wood_02
+    3300008: Henhouse_wood_03
+    3300010: Henhouse_wood_04
+    3300012: Henhouse_wood_06
+    3300014: Henhouse_wood_07
+    3300016: Henhouse_wood_08
+    3300018: Henhouse_wood_09
+    3300020: Henhouse_wood_10
+    3300022: Henhouse_wood_11
+    4300000: Henhouse_base_02
+    4300002: Henhouse_hay_02
+    4300004: Henhouse_wood_01
+    4300006: Henhouse_wood_02
+    4300008: Henhouse_wood_03
+    4300010: Henhouse_wood_04
+    4300012: Henhouse_wood_06
+    4300014: Henhouse_wood_07
+    4300016: Henhouse_wood_08
+    4300018: Henhouse_wood_09
+    4300020: Henhouse_wood_10
+    4300022: Henhouse_wood_11
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
