@@ -23,7 +23,7 @@ public class PlayerMovement : MonoBehaviour
 
     private void Start()
     {
-        forwardForce = 1300f;
+        forwardForce = 1500f;
     }
 
     private void Update()
