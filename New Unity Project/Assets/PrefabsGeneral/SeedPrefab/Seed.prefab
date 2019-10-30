@@ -98,7 +98,8 @@ MonoBehaviour:
   currentSeed: 0
   maxSeed: 5
   pickupEffect: {fileID: 139308, guid: 1c417f6a98778594d92a7a8883ede96e, type: 3}
-  seedText: {fileID: 0}
+  seedText: {fileID: 7200572907483732195, guid: 1d07d22a46b9012468562b48a51c5cdb,
+    type: 3}
 --- !u!135 &783976096940642458
 SphereCollider:
   m_ObjectHideFlags: 0
