@@ -4,7 +4,7 @@ public class PlayerMovement : MonoBehaviour
 {
     // This is a reference to the Rigidbody component called "rb"
     public Rigidbody rb;
-
+    
     
     public float forwardForce = 500f;
     public float sidewaysForce = 100f;
@@ -14,6 +14,8 @@ public class PlayerMovement : MonoBehaviour
 
     public bool go;
 
+    [SerializeField] private float height = 0f;
+    [SerializeField] private float speed = 10;
 
 
     private float minX = -3;
@@ -60,15 +62,25 @@ public class PlayerMovement : MonoBehaviour
         // Add a forward Force
         rb.AddForce(0, 0, forwardForce * Time.deltaTime);
 
-        if (Input.GetKey("d"))
+        Vector3 mouse = Input.mousePosition;
+        Ray castPoint = Camera.main.ScreenPointToRay(mouse);
+        RaycastHit hit;
+        if (Physics.Raycast(castPoint, out hit, Mathf.Infinity))
         {
-            rb.AddForce(sidewaysForce * Time.deltaTime, 0, 0, ForceMode.VelocityChange);
+            Vector3 newPosition = new Vector3(hit.point.x, 0, transform.position.z);
+            transform.position = Vector3.Lerp(transform.position, newPosition, speed * Time.deltaTime);
         }
 
-        if (Input.GetKey("a"))
-        {
-            rb.AddForce(-sidewaysForce * Time.deltaTime, 0, 0, ForceMode.VelocityChange);
-        }
+
+        //if (Input.GetKey("d"))
+        //{
+        //    rb.AddForce(sidewaysForce * Time.deltaTime, 0, 0, ForceMode.VelocityChange);
+        //}
+
+        //if (Input.GetKey("a"))
+        //{
+        //    rb.AddForce(-sidewaysForce * Time.deltaTime, 0, 0, ForceMode.VelocityChange);
+        //}
         if (rb.position.y < -1f)
         {
             FindObjectOfType<GameManager>().EndGame();
