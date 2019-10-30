@@ -15,7 +15,7 @@ public class PlayerMovement : MonoBehaviour
     public bool go;
 
     [SerializeField] private float height = 0f;
-    [SerializeField] private float speed = 10;
+    [SerializeField] private float speed = 17;
 
 
     private float minX = -3;
@@ -25,7 +25,7 @@ public class PlayerMovement : MonoBehaviour
 
     private void Start()
     {
-        forwardForce = 1500f;
+        forwardForce = 1000f;
     }
 
     private void Update()
