@@ -17,7 +17,7 @@ GameObject:
   - component: {fileID: 2844221060574534169}
   m_Layer: 0
   m_Name: Scarecrow
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -289,27 +289,7 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 89.26636
       objectReference: {fileID: 0}
-    - target: {fileID: 2300000, guid: 96cca138244e35a4fa2c7485d0053398, type: 3}
-      propertyPath: m_Materials.Array.data[0]
-      value: 
-      objectReference: {fileID: 2100000, guid: 2a230e0a4c6ac464f8fe62ec91c55ab5, type: 2}
-    - target: {fileID: 2300002, guid: 96cca138244e35a4fa2c7485d0053398, type: 3}
-      propertyPath: m_Materials.Array.data[0]
-      value: 
-      objectReference: {fileID: 2100000, guid: 2a230e0a4c6ac464f8fe62ec91c55ab5, type: 2}
-    - target: {fileID: 2300004, guid: 96cca138244e35a4fa2c7485d0053398, type: 3}
-      propertyPath: m_Materials.Array.data[0]
-      value: 
-      objectReference: {fileID: 2100000, guid: 2a230e0a4c6ac464f8fe62ec91c55ab5, type: 2}
-    - target: {fileID: 2300006, guid: 96cca138244e35a4fa2c7485d0053398, type: 3}
-      propertyPath: m_Materials.Array.data[0]
-      value: 
-      objectReference: {fileID: 2100000, guid: 2a230e0a4c6ac464f8fe62ec91c55ab5, type: 2}
-    - target: {fileID: 2300008, guid: 96cca138244e35a4fa2c7485d0053398, type: 3}
-      propertyPath: m_Materials.Array.data[0]
-      value: 
-      objectReference: {fileID: 2100000, guid: 2a230e0a4c6ac464f8fe62ec91c55ab5, type: 2}
-    - target: {fileID: 2300010, guid: 96cca138244e35a4fa2c7485d0053398, type: 3}
+    - target: {fileID: 2300014, guid: 96cca138244e35a4fa2c7485d0053398, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 2a230e0a4c6ac464f8fe62ec91c55ab5, type: 2}
@@ -317,7 +297,27 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 2a230e0a4c6ac464f8fe62ec91c55ab5, type: 2}
-    - target: {fileID: 2300014, guid: 96cca138244e35a4fa2c7485d0053398, type: 3}
+    - target: {fileID: 2300010, guid: 96cca138244e35a4fa2c7485d0053398, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 2a230e0a4c6ac464f8fe62ec91c55ab5, type: 2}
+    - target: {fileID: 2300008, guid: 96cca138244e35a4fa2c7485d0053398, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 2a230e0a4c6ac464f8fe62ec91c55ab5, type: 2}
+    - target: {fileID: 2300006, guid: 96cca138244e35a4fa2c7485d0053398, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 2a230e0a4c6ac464f8fe62ec91c55ab5, type: 2}
+    - target: {fileID: 2300004, guid: 96cca138244e35a4fa2c7485d0053398, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 2a230e0a4c6ac464f8fe62ec91c55ab5, type: 2}
+    - target: {fileID: 2300002, guid: 96cca138244e35a4fa2c7485d0053398, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 2a230e0a4c6ac464f8fe62ec91c55ab5, type: 2}
+    - target: {fileID: 2300000, guid: 96cca138244e35a4fa2c7485d0053398, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 2a230e0a4c6ac464f8fe62ec91c55ab5, type: 2}
